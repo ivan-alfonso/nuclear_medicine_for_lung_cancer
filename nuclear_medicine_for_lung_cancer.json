@@ -1,0 +1,5509 @@
+{
+  "id": "7cd3df96-7f9b-4cc2-9fb3-762e01516e13",
+  "type": "Project",
+  "schemaVersion": 4,
+  "name": "Nuclear_Medicine_for_Lung_Cancer",
+  "description": "Model of nuclear medicine for lung cancer",
+  "owner": "BESSER User",
+  "createdAt": "2026-09-01T11:30:47.219Z",
+  "currentDiagramType": "ClassDiagram",
+  "currentDiagramIndices": {
+    "ClassDiagram": 0,
+    "ObjectDiagram": 0,
+    "StateMachineDiagram": 0,
+    "AgentDiagram": 0,
+    "UserDiagram": 0,
+    "GUINoCodeDiagram": 0,
+    "QuantumCircuitDiagram": 0,
+    "NNDiagram": 0,
+    "BPMN": 0
+  },
+  "diagrams": {
+    "ClassDiagram": [
+      {
+        "id": "afa47557-bdc2-4e47-9d4a-21b792e2d21d",
+        "title": "Lung Cancer",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 11964.888888888889,
+            "height": 5710
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "class_bm405jxew_mtilcayw_q2y": {
+              "id": "class_bm405jxew_mtilcayw_q2y",
+              "name": "Finding",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5428.777777777778,
+                "y": -2835,
+                "width": 220,
+                "height": 215
+              },
+              "attributes": [
+                "attr_f2v29zxr3_mtilcayw_tvj",
+                "attr_bvcrqi9d0_mtilcayw_1w3",
+                "attr_9r4euvaeq_mtilcayw_wv3",
+                "attr_u8gxvkt7w_mtilcayw_gib",
+                "attr_u98bf83tk_mtilcayw_9pj",
+                "attr_47ibtwngd_mtilcayw_bj7",
+                "attr_wa1d82yb6_mtilcayw_19k"
+              ],
+              "methods": []
+            },
+            "attr_f2v29zxr3_mtilcayw_tvj": {
+              "id": "attr_f2v29zxr3_mtilcayw_tvj",
+              "name": "location",
+              "type": "ClassAttribute",
+              "owner": "class_bm405jxew_mtilcayw_q2y",
+              "bounds": {
+                "x": -5428.277777777778,
+                "y": -2794.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_bvcrqi9d0_mtilcayw_1w3": {
+              "id": "attr_bvcrqi9d0_mtilcayw_1w3",
+              "name": "axial",
+              "type": "ClassAttribute",
+              "owner": "class_bm405jxew_mtilcayw_q2y",
+              "bounds": {
+                "x": -5428.277777777778,
+                "y": -2769.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_9r4euvaeq_mtilcayw_wv3": {
+              "id": "attr_9r4euvaeq_mtilcayw_wv3",
+              "name": "sagital",
+              "type": "ClassAttribute",
+              "owner": "class_bm405jxew_mtilcayw_q2y",
+              "bounds": {
+                "x": -5428.277777777778,
+                "y": -2744.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_u8gxvkt7w_mtilcayw_gib": {
+              "id": "attr_u8gxvkt7w_mtilcayw_gib",
+              "name": "coronal",
+              "type": "ClassAttribute",
+              "owner": "class_bm405jxew_mtilcayw_q2y",
+              "bounds": {
+                "x": -5428.277777777778,
+                "y": -2719.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_u98bf83tk_mtilcayw_9pj": {
+              "id": "attr_u98bf83tk_mtilcayw_9pj",
+              "name": "activity",
+              "type": "ClassAttribute",
+              "owner": "class_bm405jxew_mtilcayw_q2y",
+              "bounds": {
+                "x": -5428.277777777778,
+                "y": -2694.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_47ibtwngd_mtilcayw_bj7": {
+              "id": "attr_47ibtwngd_mtilcayw_bj7",
+              "name": "density",
+              "type": "ClassAttribute",
+              "owner": "class_bm405jxew_mtilcayw_q2y",
+              "bounds": {
+                "x": -5428.277777777778,
+                "y": -2669.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_wa1d82yb6_mtilcayw_19k": {
+              "id": "attr_wa1d82yb6_mtilcayw_19k",
+              "name": "categorization",
+              "type": "ClassAttribute",
+              "owner": "class_bm405jxew_mtilcayw_q2y",
+              "bounds": {
+                "x": -5428.277777777778,
+                "y": -2644.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_aq1fsy8o9_mtilcayw_tbj": {
+              "id": "class_aq1fsy8o9_mtilcayw_tbj",
+              "name": "T",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5135.444444444444,
+                "y": -2735,
+                "width": 220,
+                "height": 165
+              },
+              "attributes": [
+                "attr_k5jd135yu_mtilcayw_cat",
+                "attr_8hftmjva3_mtilcayw_dxi",
+                "attr_w1y6u8k8b_mtilcayw_kq2",
+                "attr_j60cxvq1a_mtilcayw_g7n",
+                "attr_7lq0ys6u1_mtilcayw_bvp"
+              ],
+              "methods": []
+            },
+            "attr_k5jd135yu_mtilcayw_cat": {
+              "id": "attr_k5jd135yu_mtilcayw_cat",
+              "name": "type",
+              "type": "ClassAttribute",
+              "owner": "class_aq1fsy8o9_mtilcayw_tbj",
+              "bounds": {
+                "x": -5134.944444444444,
+                "y": -2694.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_8hftmjva3_mtilcayw_dxi": {
+              "id": "attr_8hftmjva3_mtilcayw_dxi",
+              "name": "morphology",
+              "type": "ClassAttribute",
+              "owner": "class_aq1fsy8o9_mtilcayw_tbj",
+              "bounds": {
+                "x": -5134.944444444444,
+                "y": -2669.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_w1y6u8k8b_mtilcayw_kq2": {
+              "id": "attr_w1y6u8k8b_mtilcayw_kq2",
+              "name": "internalCharacteristics",
+              "type": "ClassAttribute",
+              "owner": "class_aq1fsy8o9_mtilcayw_tbj",
+              "bounds": {
+                "x": -5134.944444444444,
+                "y": -2644.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_j60cxvq1a_mtilcayw_g7n": {
+              "id": "attr_j60cxvq1a_mtilcayw_g7n",
+              "name": "borders",
+              "type": "ClassAttribute",
+              "owner": "class_aq1fsy8o9_mtilcayw_tbj",
+              "bounds": {
+                "x": -5134.944444444444,
+                "y": -2619.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_7lq0ys6u1_mtilcayw_bvp": {
+              "id": "attr_7lq0ys6u1_mtilcayw_bvp",
+              "name": "diagnosis",
+              "type": "ClassAttribute",
+              "owner": "class_aq1fsy8o9_mtilcayw_tbj",
+              "bounds": {
+                "x": -5134.944444444444,
+                "y": -2594.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_c6db1zp9b_mtilcayw_ujs": {
+              "id": "class_c6db1zp9b_mtilcayw_ujs",
+              "name": "N",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4758.444444444444,
+                "y": -2737,
+                "width": 220,
+                "height": 65
+              },
+              "attributes": [
+                "attr_y0v2g6rwr_mtilcayw_7oz"
+              ],
+              "methods": []
+            },
+            "attr_y0v2g6rwr_mtilcayw_7oz": {
+              "id": "attr_y0v2g6rwr_mtilcayw_7oz",
+              "name": "appearance",
+              "type": "ClassAttribute",
+              "owner": "class_c6db1zp9b_mtilcayw_ujs",
+              "bounds": {
+                "x": -4757.944444444444,
+                "y": -2696.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_fwzl9926r_mtilcayw_uv7": {
+              "id": "class_fwzl9926r_mtilcayw_uv7",
+              "name": "M",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4476.444444444444,
+                "y": -2737,
+                "width": 230,
+                "height": 70
+              },
+              "attributes": [
+                "53751fe1-d6bc-4d7b-adfe-275890a6cfa1"
+              ],
+              "methods": []
+            },
+            "53751fe1-d6bc-4d7b-adfe-275890a6cfa1": {
+              "id": "53751fe1-d6bc-4d7b-adfe-275890a6cfa1",
+              "name": "uncountableMetastasis",
+              "type": "ClassAttribute",
+              "owner": "class_fwzl9926r_mtilcayw_uv7",
+              "bounds": {
+                "x": -4475.944444444444,
+                "y": -2696.5,
+                "width": 229,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_xe0kr0hvt_mtilcayw_bj3": {
+              "id": "class_xe0kr0hvt_mtilcayw_bj3",
+              "name": "Neighboring Structures",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4758.444444444444,
+                "y": -2625,
+                "width": 220,
+                "height": 90
+              },
+              "attributes": [
+                "attr_yx5rs9nbe_mtilcayw_4ru",
+                "attr_d3gjdcubw_mtilcayw_bsl"
+              ],
+              "methods": []
+            },
+            "attr_yx5rs9nbe_mtilcayw_4ru": {
+              "id": "attr_yx5rs9nbe_mtilcayw_4ru",
+              "name": "structure",
+              "type": "ClassAttribute",
+              "owner": "class_xe0kr0hvt_mtilcayw_bj3",
+              "bounds": {
+                "x": -4757.944444444444,
+                "y": -2584.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_d3gjdcubw_mtilcayw_bsl": {
+              "id": "attr_d3gjdcubw_mtilcayw_bsl",
+              "name": "relation",
+              "type": "ClassAttribute",
+              "owner": "class_xe0kr0hvt_mtilcayw_bj3",
+              "bounds": {
+                "x": -4757.944444444444,
+                "y": -2559.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_3idhnhp8j_mtilcayw_1hp": {
+              "id": "class_3idhnhp8j_mtilcayw_1hp",
+              "name": "Quantification Relation",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5596.444444444444,
+                "y": -2487,
+                "width": 230,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_4ahtnc588_mtilcayw_mus": {
+              "id": "class_4ahtnc588_mtilcayw_mus",
+              "name": "Quantification Validation",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5700.920634920635,
+                "y": -2309.2619541713166,
+                "width": 220,
+                "height": 140
+              },
+              "attributes": [
+                "attr_p0m1ishm4_mtilcayw_xsh",
+                "attr_n4d74441c_mtilcayw_u05",
+                "attr_sxou3bvkw_mtilcayw_qz8",
+                "attr_tl5ud73ff_mtilcayw_z2l"
+              ],
+              "methods": []
+            },
+            "attr_p0m1ishm4_mtilcayw_xsh": {
+              "id": "attr_p0m1ishm4_mtilcayw_xsh",
+              "name": "RECIST",
+              "type": "ClassAttribute",
+              "owner": "class_4ahtnc588_mtilcayw_mus",
+              "bounds": {
+                "x": -5700.420634920635,
+                "y": -2268.7619541713166,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_n4d74441c_mtilcayw_u05": {
+              "id": "attr_n4d74441c_mtilcayw_u05",
+              "name": "iPERCIST",
+              "type": "ClassAttribute",
+              "owner": "class_4ahtnc588_mtilcayw_mus",
+              "bounds": {
+                "x": -5700.420634920635,
+                "y": -2243.7619541713166,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_sxou3bvkw_mtilcayw_qz8": {
+              "id": "attr_sxou3bvkw_mtilcayw_qz8",
+              "name": "mtv",
+              "type": "ClassAttribute",
+              "owner": "class_4ahtnc588_mtilcayw_mus",
+              "bounds": {
+                "x": -5700.420634920635,
+                "y": -2218.7619541713166,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_tl5ud73ff_mtilcayw_z2l": {
+              "id": "attr_tl5ud73ff_mtilcayw_z2l",
+              "name": "tlg",
+              "type": "ClassAttribute",
+              "owner": "class_4ahtnc588_mtilcayw_mus",
+              "bounds": {
+                "x": -5700.420634920635,
+                "y": -2193.7619541713166,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_7njursmwf_mtilcayw_zv9": {
+              "id": "class_7njursmwf_mtilcayw_zv9",
+              "name": "Exploration",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5298.512446454182,
+                "y": -2262,
+                "width": 220,
+                "height": 540
+              },
+              "attributes": [
+                "attr_ti0zwe28f_mtilcayx_2ko",
+                "attr_rcpuaonh0_mtilcayx_uyk",
+                "attr_mmb5hckpj_mtilcayx_diw",
+                "attr_kzk2wm1sb_mtilcayx_0g3",
+                "attr_zpr9n5c4x_mtilcayx_o3e",
+                "attr_r23c1m47l_mtilcayx_6xh",
+                "attr_9rfe071ds_mtilcayx_s3w",
+                "attr_2h0mvgqqw_mtilcayx_dov",
+                "attr_2l1v5212h_mtilcayx_epz",
+                "attr_ym4c1lsd6_mtilcayx_kae",
+                "attr_u6k54z05f_mtilcayx_cdq",
+                "attr_32m068zpt_mtilcayx_h9l",
+                "attr_txpf9q0ep_mtilcayx_uqv",
+                "attr_i1dlvfteu_mtilcayx_f1w",
+                "attr_38drc7c1v_mtilcayx_2zb",
+                "attr_2po0kfw42_mtilcayx_x09",
+                "attr_nz2r4dmr0_mtilcayx_c47",
+                "attr_cpk83vzna_mtilcayx_u79",
+                "attr_v2sn05s6v_mtilcayx_3xe",
+                "attr_cerc4pv8z_mtilcayx_07p"
+              ],
+              "methods": []
+            },
+            "attr_ti0zwe28f_mtilcayx_2ko": {
+              "id": "attr_ti0zwe28f_mtilcayx_2ko",
+              "name": "date",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -2221.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_rcpuaonh0_mtilcayx_uyk": {
+              "id": "attr_rcpuaonh0_mtilcayx_uyk",
+              "name": "age",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -2196.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_mmb5hckpj_mtilcayx_diw": {
+              "id": "attr_mmb5hckpj_mtilcayx_diw",
+              "name": "radiopharmaceutical",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -2171.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_kzk2wm1sb_mtilcayx_0g3": {
+              "id": "attr_kzk2wm1sb_mtilcayx_0g3",
+              "name": "protocol",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -2146.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_zpr9n5c4x_mtilcayx_o3e": {
+              "id": "attr_zpr9n5c4x_mtilcayx_o3e",
+              "name": "protocolContrastOral",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -2121.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_r23c1m47l_mtilcayx_6xh": {
+              "id": "attr_r23c1m47l_mtilcayx_6xh",
+              "name": "protocolContrastIv",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -2096.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_9rfe071ds_mtilcayx_s3w": {
+              "id": "attr_9rfe071ds_mtilcayx_s3w",
+              "name": "latefield",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -2071.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_2h0mvgqqw_mtilcayx_dov": {
+              "id": "attr_2h0mvgqqw_mtilcayx_dov",
+              "name": "latefieldTime",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -2046.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_2l1v5212h_mtilcayx_epz": {
+              "id": "attr_2l1v5212h_mtilcayx_epz",
+              "name": "latefieldContrastOral",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -2021.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_ym4c1lsd6_mtilcayx_kae": {
+              "id": "attr_ym4c1lsd6_mtilcayx_kae",
+              "name": "latefieldContrastIv",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -1996.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_u6k54z05f_mtilcayx_cdq": {
+              "id": "attr_u6k54z05f_mtilcayx_cdq",
+              "name": "activity",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -1971.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_32m068zpt_mtilcayx_h9l": {
+              "id": "attr_32m068zpt_mtilcayx_h9l",
+              "name": "incorporationTime",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -1946.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_txpf9q0ep_mtilcayx_uqv": {
+              "id": "attr_txpf9q0ep_mtilcayx_uqv",
+              "name": "bloodGlucose",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -1921.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_i1dlvfteu_mtilcayx_f1w": {
+              "id": "attr_i1dlvfteu_mtilcayx_f1w",
+              "name": "mediastinicQuantification",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -1896.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_38drc7c1v_mtilcayx_2zb": {
+              "id": "attr_38drc7c1v_mtilcayx_2zb",
+              "name": "liverQuantification",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -1871.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_2po0kfw42_mtilcayx_x09": {
+              "id": "attr_2po0kfw42_mtilcayx_x09",
+              "name": "spleenQuantification",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -1846.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_nz2r4dmr0_mtilcayx_c47": {
+              "id": "attr_nz2r4dmr0_mtilcayx_c47",
+              "name": "boneMarrowQuantification",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -1821.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_cpk83vzna_mtilcayx_u79": {
+              "id": "attr_cpk83vzna_mtilcayx_u79",
+              "name": "hypophysisQuantification",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -1796.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_v2sn05s6v_mtilcayx_3xe": {
+              "id": "attr_v2sn05s6v_mtilcayx_3xe",
+              "name": "quantificationMethod",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -1771.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_cerc4pv8z_mtilcayx_07p": {
+              "id": "attr_cerc4pv8z_mtilcayx_07p",
+              "name": "finished",
+              "type": "ClassAttribute",
+              "owner": "class_7njursmwf_mtilcayw_zv9",
+              "bounds": {
+                "x": -5298.012446454182,
+                "y": -1746.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_72rjupbq4_mtilcayx_myr": {
+              "id": "class_72rjupbq4_mtilcayx_myr",
+              "name": "Staging",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5027.444444444444,
+                "y": -2497,
+                "width": 220,
+                "height": 90
+              },
+              "attributes": [
+                "attr_paxw0z8vv_mtilcayx_ria",
+                "attr_ggt3th36v_mtilcayx_79t"
+              ],
+              "methods": []
+            },
+            "attr_paxw0z8vv_mtilcayx_ria": {
+              "id": "attr_paxw0z8vv_mtilcayx_ria",
+              "name": "date",
+              "type": "ClassAttribute",
+              "owner": "class_72rjupbq4_mtilcayx_myr",
+              "bounds": {
+                "x": -5026.944444444444,
+                "y": -2456.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_ggt3th36v_mtilcayx_79t": {
+              "id": "attr_ggt3th36v_mtilcayx_79t",
+              "name": "result",
+              "type": "ClassAttribute",
+              "owner": "class_72rjupbq4_mtilcayx_myr",
+              "bounds": {
+                "x": -5026.944444444444,
+                "y": -2431.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_7w1ewsirl_mtilcayx_z4h": {
+              "id": "class_7w1ewsirl_mtilcayx_z4h",
+              "name": "Patient",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4933.444444444444,
+                "y": -2379,
+                "width": 220,
+                "height": 190
+              },
+              "attributes": [
+                "attr_2sa21uggw_mtilcayx_hrx",
+                "attr_2va9wyldd_mtilcayx_oe0",
+                "attr_ayoa6oxan_mtilcayx_1pi",
+                "attr_dx31dcoet_mtilcayx_rtj",
+                "attr_t0odb1k1n_mtilcayx_uvn",
+                "attr_xrswhph52_mtilcayx_pgh"
+              ],
+              "methods": []
+            },
+            "attr_2sa21uggw_mtilcayx_hrx": {
+              "id": "attr_2sa21uggw_mtilcayx_hrx",
+              "name": "sip",
+              "type": "ClassAttribute",
+              "owner": "class_7w1ewsirl_mtilcayx_z4h",
+              "bounds": {
+                "x": -4932.944444444444,
+                "y": -2338.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_2va9wyldd_mtilcayx_oe0": {
+              "id": "attr_2va9wyldd_mtilcayx_oe0",
+              "name": "nhc",
+              "type": "ClassAttribute",
+              "owner": "class_7w1ewsirl_mtilcayx_z4h",
+              "bounds": {
+                "x": -4932.944444444444,
+                "y": -2313.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_ayoa6oxan_mtilcayx_1pi": {
+              "id": "attr_ayoa6oxan_mtilcayx_1pi",
+              "name": "dni",
+              "type": "ClassAttribute",
+              "owner": "class_7w1ewsirl_mtilcayx_z4h",
+              "bounds": {
+                "x": -4932.944444444444,
+                "y": -2288.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_dx31dcoet_mtilcayx_rtj": {
+              "id": "attr_dx31dcoet_mtilcayx_rtj",
+              "name": "name",
+              "type": "ClassAttribute",
+              "owner": "class_7w1ewsirl_mtilcayx_z4h",
+              "bounds": {
+                "x": -4932.944444444444,
+                "y": -2263.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_t0odb1k1n_mtilcayx_uvn": {
+              "id": "attr_t0odb1k1n_mtilcayx_uvn",
+              "name": "birthDate",
+              "type": "ClassAttribute",
+              "owner": "class_7w1ewsirl_mtilcayx_z4h",
+              "bounds": {
+                "x": -4932.944444444444,
+                "y": -2238.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_xrswhph52_mtilcayx_pgh": {
+              "id": "attr_xrswhph52_mtilcayx_pgh",
+              "name": "sex",
+              "type": "ClassAttribute",
+              "owner": "class_7w1ewsirl_mtilcayx_z4h",
+              "bounds": {
+                "x": -4932.944444444444,
+                "y": -2213.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_44i1f7w0j_mtilcayx_zz3": {
+              "id": "class_44i1f7w0j_mtilcayx_zz3",
+              "name": "Clinical Antecedent",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4480.222222222223,
+                "y": -2508,
+                "width": 220,
+                "height": 190
+              },
+              "attributes": [
+                "attr_41iplb4xv_mtilcayx_ygf",
+                "attr_hrezcdho9_mtilcayx_zl1",
+                "attr_28r9e6mtg_mtilcayx_src",
+                "attr_hvqwteang_mtilcayx_7wa",
+                "attr_xepipp74x_mtilcayx_e6d",
+                "attr_vbcuy4v7c_mtilcayx_86s"
+              ],
+              "methods": []
+            },
+            "attr_41iplb4xv_mtilcayx_ygf": {
+              "id": "attr_41iplb4xv_mtilcayx_ygf",
+              "name": "diabetes",
+              "type": "ClassAttribute",
+              "owner": "class_44i1f7w0j_mtilcayx_zz3",
+              "bounds": {
+                "x": -4479.722222222223,
+                "y": -2467.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_hrezcdho9_mtilcayx_zl1": {
+              "id": "attr_hrezcdho9_mtilcayx_zl1",
+              "name": "immunosuppression",
+              "type": "ClassAttribute",
+              "owner": "class_44i1f7w0j_mtilcayx_zz3",
+              "bounds": {
+                "x": -4479.722222222223,
+                "y": -2442.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_28r9e6mtg_mtilcayx_src": {
+              "id": "attr_28r9e6mtg_mtilcayx_src",
+              "name": "hiv",
+              "type": "ClassAttribute",
+              "owner": "class_44i1f7w0j_mtilcayx_zz3",
+              "bounds": {
+                "x": -4479.722222222223,
+                "y": -2417.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_hvqwteang_mtilcayx_7wa": {
+              "id": "attr_hvqwteang_mtilcayx_7wa",
+              "name": "heartFailure",
+              "type": "ClassAttribute",
+              "owner": "class_44i1f7w0j_mtilcayx_zz3",
+              "bounds": {
+                "x": -4479.722222222223,
+                "y": -2392.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_xepipp74x_mtilcayx_e6d": {
+              "id": "attr_xepipp74x_mtilcayx_e6d",
+              "name": "smoker",
+              "type": "ClassAttribute",
+              "owner": "class_44i1f7w0j_mtilcayx_zz3",
+              "bounds": {
+                "x": -4479.722222222223,
+                "y": -2367.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_vbcuy4v7c_mtilcayx_86s": {
+              "id": "attr_vbcuy4v7c_mtilcayx_86s",
+              "name": "anotherTumor",
+              "type": "ClassAttribute",
+              "owner": "class_44i1f7w0j_mtilcayx_zz3",
+              "bounds": {
+                "x": -4479.722222222223,
+                "y": -2342.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_meyuilv27_mtilcayx_98x": {
+              "id": "class_meyuilv27_mtilcayx_98x",
+              "name": "Interest Antecedent",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4471.777777777777,
+                "y": -2246,
+                "width": 220,
+                "height": 90
+              },
+              "attributes": [
+                "attr_dzyu9zswz_mtilcayx_00u",
+                "attr_k0plzvr60_mtilcayx_x6v"
+              ],
+              "methods": []
+            },
+            "attr_dzyu9zswz_mtilcayx_00u": {
+              "id": "attr_dzyu9zswz_mtilcayx_00u",
+              "name": "date",
+              "type": "ClassAttribute",
+              "owner": "class_meyuilv27_mtilcayx_98x",
+              "bounds": {
+                "x": -4471.277777777777,
+                "y": -2205.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_k0plzvr60_mtilcayx_x6v": {
+              "id": "attr_k0plzvr60_mtilcayx_x6v",
+              "name": "result",
+              "type": "ClassAttribute",
+              "owner": "class_meyuilv27_mtilcayx_98x",
+              "bounds": {
+                "x": -4471.277777777777,
+                "y": -2180.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_oe6ulifb5_mtilcayx_ojj": {
+              "id": "class_oe6ulifb5_mtilcayx_ojj",
+              "name": "Indication",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5699.58746883374,
+                "y": -2077.8125,
+                "width": 220,
+                "height": 165
+              },
+              "attributes": [
+                "attr_w7fdw6u7b_mtilcayx_7wt",
+                "attr_yarilow2j_mtilcayx_oi6",
+                "attr_ag772y4qh_mtilcayx_ur3",
+                "attr_libcmx77n_mtilcayx_2ur",
+                "attr_haapols1b_mtilcayx_jtg"
+              ],
+              "methods": []
+            },
+            "attr_w7fdw6u7b_mtilcayx_7wt": {
+              "id": "attr_w7fdw6u7b_mtilcayx_7wt",
+              "name": "diagnosis",
+              "type": "ClassAttribute",
+              "owner": "class_oe6ulifb5_mtilcayx_ojj",
+              "bounds": {
+                "x": -5699.08746883374,
+                "y": -2037.3125,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_yarilow2j_mtilcayx_oi6": {
+              "id": "attr_yarilow2j_mtilcayx_oi6",
+              "name": "staging",
+              "type": "ClassAttribute",
+              "owner": "class_oe6ulifb5_mtilcayx_ojj",
+              "bounds": {
+                "x": -5699.08746883374,
+                "y": -2012.3125,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_ag772y4qh_mtilcayx_ur3": {
+              "id": "attr_ag772y4qh_mtilcayx_ur3",
+              "name": "restaging",
+              "type": "ClassAttribute",
+              "owner": "class_oe6ulifb5_mtilcayx_ojj",
+              "bounds": {
+                "x": -5699.08746883374,
+                "y": -1987.3125,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_libcmx77n_mtilcayx_2ur": {
+              "id": "attr_libcmx77n_mtilcayx_2ur",
+              "name": "planningRT",
+              "type": "ClassAttribute",
+              "owner": "class_oe6ulifb5_mtilcayx_ojj",
+              "bounds": {
+                "x": -5699.08746883374,
+                "y": -1962.3125,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_haapols1b_mtilcayx_jtg": {
+              "id": "attr_haapols1b_mtilcayx_jtg",
+              "name": "ratingResponse",
+              "type": "ClassAttribute",
+              "owner": "class_oe6ulifb5_mtilcayx_ojj",
+              "bounds": {
+                "x": -5699.08746883374,
+                "y": -1937.3125,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_t9e7pucz1_mtilcayx_muo": {
+              "id": "class_t9e7pucz1_mtilcayx_muo",
+              "name": "Pathology",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5699.111111111112,
+                "y": -1837,
+                "width": 220,
+                "height": 90
+              },
+              "attributes": [
+                "attr_3znu49t51_mtilcayx_mih",
+                "attr_4y2xxgcj5_mtilcayx_0gh"
+              ],
+              "methods": []
+            },
+            "attr_3znu49t51_mtilcayx_mih": {
+              "id": "attr_3znu49t51_mtilcayx_mih",
+              "name": "diagnosis",
+              "type": "ClassAttribute",
+              "owner": "class_t9e7pucz1_mtilcayx_muo",
+              "bounds": {
+                "x": -5698.611111111112,
+                "y": -1796.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_4y2xxgcj5_mtilcayx_0gh": {
+              "id": "attr_4y2xxgcj5_mtilcayx_0gh",
+              "name": "suspicion",
+              "type": "ClassAttribute",
+              "owner": "class_t9e7pucz1_mtilcayx_muo",
+              "bounds": {
+                "x": -5698.611111111112,
+                "y": -1771.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_qjstz2s9q_mtilcayx_3p2": {
+              "id": "class_qjstz2s9q_mtilcayx_3p2",
+              "name": "Report",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4917.444444444444,
+                "y": -1978.5,
+                "width": 220,
+                "height": 140
+              },
+              "attributes": [
+                "attr_2sf01dnov_mtilcayx_76a",
+                "attr_pqdt3jp78_mtilcayx_svh",
+                "attr_q7vj48j7m_mtilcayx_bpn",
+                "attr_ha21mp941_mtilcayx_sl2"
+              ],
+              "methods": []
+            },
+            "attr_2sf01dnov_mtilcayx_76a": {
+              "id": "attr_2sf01dnov_mtilcayx_76a",
+              "name": "eraser",
+              "type": "ClassAttribute",
+              "owner": "class_qjstz2s9q_mtilcayx_3p2",
+              "bounds": {
+                "x": -4916.944444444444,
+                "y": -1938,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_pqdt3jp78_mtilcayx_svh": {
+              "id": "attr_pqdt3jp78_mtilcayx_svh",
+              "name": "conclusion",
+              "type": "ClassAttribute",
+              "owner": "class_qjstz2s9q_mtilcayx_3p2",
+              "bounds": {
+                "x": -4916.944444444444,
+                "y": -1913,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_q7vj48j7m_mtilcayx_bpn": {
+              "id": "attr_q7vj48j7m_mtilcayx_bpn",
+              "name": "endDate",
+              "type": "ClassAttribute",
+              "owner": "class_qjstz2s9q_mtilcayx_3p2",
+              "bounds": {
+                "x": -4916.944444444444,
+                "y": -1888,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_ha21mp941_mtilcayx_sl2": {
+              "id": "attr_ha21mp941_mtilcayx_sl2",
+              "name": "sign",
+              "type": "ClassAttribute",
+              "owner": "class_qjstz2s9q_mtilcayx_3p2",
+              "bounds": {
+                "x": -4916.944444444444,
+                "y": -1863,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_kvy76gc87_mtilcayx_n9s": {
+              "id": "class_kvy76gc87_mtilcayx_n9s",
+              "name": "Result File",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4916.444444444444,
+                "y": -1798,
+                "width": 220,
+                "height": 90
+              },
+              "attributes": [
+                "attr_3qfkmitis_mtilcayx_ait",
+                "attr_afkcq1yrr_mtilcayx_jma"
+              ],
+              "methods": []
+            },
+            "attr_3qfkmitis_mtilcayx_ait": {
+              "id": "attr_3qfkmitis_mtilcayx_ait",
+              "name": "content",
+              "type": "ClassAttribute",
+              "owner": "class_kvy76gc87_mtilcayx_n9s",
+              "bounds": {
+                "x": -4915.944444444444,
+                "y": -1757.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_afkcq1yrr_mtilcayx_jma": {
+              "id": "attr_afkcq1yrr_mtilcayx_jma",
+              "name": "sign",
+              "type": "ClassAttribute",
+              "owner": "class_kvy76gc87_mtilcayx_n9s",
+              "bounds": {
+                "x": -4915.944444444444,
+                "y": -1732.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_zsm7xrx28_mtilcayx_7lo": {
+              "id": "class_zsm7xrx28_mtilcayx_7lo",
+              "name": "Biopsy",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4629.222222222222,
+                "y": -2111,
+                "width": 220,
+                "height": 140
+              },
+              "attributes": [
+                "attr_khfiky72q_mtilcayx_369",
+                "attr_nmxgwy068_mtilcayx_kdh",
+                "attr_cn2b32wsb_mtilcayx_gfg",
+                "attr_mws52y0br_mtilcayx_ns9"
+              ],
+              "methods": []
+            },
+            "attr_khfiky72q_mtilcayx_369": {
+              "id": "attr_khfiky72q_mtilcayx_369",
+              "name": "technique",
+              "type": "ClassAttribute",
+              "owner": "class_zsm7xrx28_mtilcayx_7lo",
+              "bounds": {
+                "x": -4628.722222222222,
+                "y": -2070.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_nmxgwy068_mtilcayx_kdh": {
+              "id": "attr_nmxgwy068_mtilcayx_kdh",
+              "name": "location",
+              "type": "ClassAttribute",
+              "owner": "class_zsm7xrx28_mtilcayx_7lo",
+              "bounds": {
+                "x": -4628.722222222222,
+                "y": -2045.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_cn2b32wsb_mtilcayx_gfg": {
+              "id": "attr_cn2b32wsb_mtilcayx_gfg",
+              "name": "positiveMarkers",
+              "type": "ClassAttribute",
+              "owner": "class_zsm7xrx28_mtilcayx_7lo",
+              "bounds": {
+                "x": -4628.722222222222,
+                "y": -2020.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_mws52y0br_mtilcayx_ns9": {
+              "id": "attr_mws52y0br_mtilcayx_ns9",
+              "name": "negativeMarkers",
+              "type": "ClassAttribute",
+              "owner": "class_zsm7xrx28_mtilcayx_7lo",
+              "bounds": {
+                "x": -4628.722222222222,
+                "y": -1995.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_e6t9fox1y_mtilcayx_jg5": {
+              "id": "class_e6t9fox1y_mtilcayx_jg5",
+              "name": "Cytology",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4317.222222222222,
+                "y": -2110,
+                "width": 220,
+                "height": 140
+              },
+              "attributes": [
+                "attr_81rjkvmbn_mtilcayx_uk5",
+                "attr_relwl5mjs_mtilcayx_ty8",
+                "attr_64twu05gf_mtilcayx_d65",
+                "attr_9b482zrwl_mtilcayx_mco"
+              ],
+              "methods": []
+            },
+            "attr_81rjkvmbn_mtilcayx_uk5": {
+              "id": "attr_81rjkvmbn_mtilcayx_uk5",
+              "name": "technique",
+              "type": "ClassAttribute",
+              "owner": "class_e6t9fox1y_mtilcayx_jg5",
+              "bounds": {
+                "x": -4316.722222222222,
+                "y": -2069.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_relwl5mjs_mtilcayx_ty8": {
+              "id": "attr_relwl5mjs_mtilcayx_ty8",
+              "name": "location",
+              "type": "ClassAttribute",
+              "owner": "class_e6t9fox1y_mtilcayx_jg5",
+              "bounds": {
+                "x": -4316.722222222222,
+                "y": -2044.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_64twu05gf_mtilcayx_d65": {
+              "id": "attr_64twu05gf_mtilcayx_d65",
+              "name": "positiveMarkers",
+              "type": "ClassAttribute",
+              "owner": "class_e6t9fox1y_mtilcayx_jg5",
+              "bounds": {
+                "x": -4316.722222222222,
+                "y": -2019.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_9b482zrwl_mtilcayx_mco": {
+              "id": "attr_9b482zrwl_mtilcayx_mco",
+              "name": "negativeMarkers",
+              "type": "ClassAttribute",
+              "owner": "class_e6t9fox1y_mtilcayx_jg5",
+              "bounds": {
+                "x": -4316.722222222222,
+                "y": -1994.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_6l6ht4rqz_mtilcayx_em1": {
+              "id": "class_6l6ht4rqz_mtilcayx_em1",
+              "name": "Chemotherapy",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4628.979243329182,
+                "y": -1942,
+                "width": 220,
+                "height": 140
+              },
+              "attributes": [
+                "attr_uad6wyjhe_mtilcayx_u98",
+                "attr_k5cvnff8f_mtilcayx_050",
+                "attr_ktrqlag81_mtilcayx_4ow",
+                "attr_n6dmpivkf_mtilcayx_tfo"
+              ],
+              "methods": []
+            },
+            "attr_uad6wyjhe_mtilcayx_u98": {
+              "id": "attr_uad6wyjhe_mtilcayx_u98",
+              "name": "cycle",
+              "type": "ClassAttribute",
+              "owner": "class_6l6ht4rqz_mtilcayx_em1",
+              "bounds": {
+                "x": -4628.479243329182,
+                "y": -1901.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_k5cvnff8f_mtilcayx_050": {
+              "id": "attr_k5cvnff8f_mtilcayx_050",
+              "name": "scheme",
+              "type": "ClassAttribute",
+              "owner": "class_6l6ht4rqz_mtilcayx_em1",
+              "bounds": {
+                "x": -4628.479243329182,
+                "y": -1876.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_ktrqlag81_mtilcayx_4ow": {
+              "id": "attr_ktrqlag81_mtilcayx_4ow",
+              "name": "positiveMarkers",
+              "type": "ClassAttribute",
+              "owner": "class_6l6ht4rqz_mtilcayx_em1",
+              "bounds": {
+                "x": -4628.479243329182,
+                "y": -1851.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_n6dmpivkf_mtilcayx_tfo": {
+              "id": "attr_n6dmpivkf_mtilcayx_tfo",
+              "name": "negativeMarkers",
+              "type": "ClassAttribute",
+              "owner": "class_6l6ht4rqz_mtilcayx_em1",
+              "bounds": {
+                "x": -4628.479243329182,
+                "y": -1826.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_sntxavi7h_mtilcayx_u7h": {
+              "id": "class_sntxavi7h_mtilcayx_u7h",
+              "name": "Radiotherapy",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4316.222222222222,
+                "y": -1942,
+                "width": 220,
+                "height": 140
+              },
+              "attributes": [
+                "attr_dnlze769q_mtilcayx_olq",
+                "attr_7r8ttg8gt_mtilcayx_tzp",
+                "attr_fgyrkm044_mtilcayx_7vw",
+                "attr_ydx3zkim1_mtilcayx_l3g"
+              ],
+              "methods": []
+            },
+            "attr_dnlze769q_mtilcayx_olq": {
+              "id": "attr_dnlze769q_mtilcayx_olq",
+              "name": "technique",
+              "type": "ClassAttribute",
+              "owner": "class_sntxavi7h_mtilcayx_u7h",
+              "bounds": {
+                "x": -4315.722222222222,
+                "y": -1901.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_7r8ttg8gt_mtilcayx_tzp": {
+              "id": "attr_7r8ttg8gt_mtilcayx_tzp",
+              "name": "location",
+              "type": "ClassAttribute",
+              "owner": "class_sntxavi7h_mtilcayx_u7h",
+              "bounds": {
+                "x": -4315.722222222222,
+                "y": -1876.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_fgyrkm044_mtilcayx_7vw": {
+              "id": "attr_fgyrkm044_mtilcayx_7vw",
+              "name": "sessionsManaged",
+              "type": "ClassAttribute",
+              "owner": "class_sntxavi7h_mtilcayx_u7h",
+              "bounds": {
+                "x": -4315.722222222222,
+                "y": -1851.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_ydx3zkim1_mtilcayx_l3g": {
+              "id": "attr_ydx3zkim1_mtilcayx_l3g",
+              "name": "gyManaged",
+              "type": "ClassAttribute",
+              "owner": "class_sntxavi7h_mtilcayx_u7h",
+              "bounds": {
+                "x": -4315.722222222222,
+                "y": -1826.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_a2zob06lp_mtilcayx_5rc": {
+              "id": "class_a2zob06lp_mtilcayx_5rc",
+              "name": "Immunotherapy",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4629.222222222222,
+                "y": -1778,
+                "width": 220,
+                "height": 115
+              },
+              "attributes": [
+                "attr_k2whq8fe9_mtilcayx_toi",
+                "attr_lir5icna0_mtilcayx_v45",
+                "attr_a2alchlfz_mtilcayx_2ai"
+              ],
+              "methods": []
+            },
+            "attr_k2whq8fe9_mtilcayx_toi": {
+              "id": "attr_k2whq8fe9_mtilcayx_toi",
+              "name": "medicine",
+              "type": "ClassAttribute",
+              "owner": "class_a2zob06lp_mtilcayx_5rc",
+              "bounds": {
+                "x": -4628.722222222222,
+                "y": -1737.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_lir5icna0_mtilcayx_v45": {
+              "id": "attr_lir5icna0_mtilcayx_v45",
+              "name": "target",
+              "type": "ClassAttribute",
+              "owner": "class_a2zob06lp_mtilcayx_5rc",
+              "bounds": {
+                "x": -4628.722222222222,
+                "y": -1712.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_a2alchlfz_mtilcayx_2ai": {
+              "id": "attr_a2alchlfz_mtilcayx_2ai",
+              "name": "observations",
+              "type": "ClassAttribute",
+              "owner": "class_a2zob06lp_mtilcayx_5rc",
+              "bounds": {
+                "x": -4628.722222222222,
+                "y": -1687.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_6ckflor11_mtilcayx_8ly": {
+              "id": "class_6ckflor11_mtilcayx_8ly",
+              "name": "Previous PET",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4315.222222222222,
+                "y": -1778,
+                "width": 220,
+                "height": 115
+              },
+              "attributes": [
+                "attr_k2kog5fwt_mtilcayx_91g",
+                "attr_01ajhj4o0_mtilcayx_t94",
+                "attr_78dqxrv7i_mtilcayx_30m"
+              ],
+              "methods": []
+            },
+            "attr_k2kog5fwt_mtilcayx_91g": {
+              "id": "attr_k2kog5fwt_mtilcayx_91g",
+              "name": "reference",
+              "type": "ClassAttribute",
+              "owner": "class_6ckflor11_mtilcayx_8ly",
+              "bounds": {
+                "x": -4314.722222222222,
+                "y": -1737.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_01ajhj4o0_mtilcayx_t94": {
+              "id": "attr_01ajhj4o0_mtilcayx_t94",
+              "name": "radiopharmaceutical",
+              "type": "ClassAttribute",
+              "owner": "class_6ckflor11_mtilcayx_8ly",
+              "bounds": {
+                "x": -4314.722222222222,
+                "y": -1712.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "attr_78dqxrv7i_mtilcayx_30m": {
+              "id": "attr_78dqxrv7i_mtilcayx_30m",
+              "name": "gyManaged",
+              "type": "ClassAttribute",
+              "owner": "class_6ckflor11_mtilcayx_8ly",
+              "bounds": {
+                "x": -4314.722222222222,
+                "y": -1687.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_wsitah3fi_mtilcayx_ck6": {
+              "id": "class_wsitah3fi_mtilcayx_ck6",
+              "name": "Surgery",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4471.222222222222,
+                "y": -1639,
+                "width": 220,
+                "height": 65
+              },
+              "attributes": [
+                "attr_96tkr23si_mtilcayx_70v"
+              ],
+              "methods": []
+            },
+            "attr_96tkr23si_mtilcayx_70v": {
+              "id": "attr_96tkr23si_mtilcayx_70v",
+              "name": "location",
+              "type": "ClassAttribute",
+              "owner": "class_wsitah3fi_mtilcayx_ck6",
+              "bounds": {
+                "x": -4470.722222222222,
+                "y": -1598.5,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_j6etxhhci_mtilcayx_zk6": {
+              "id": "class_j6etxhhci_mtilcayx_zk6",
+              "name": "Other Finding",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5299.212560386473,
+                "y": -1625.1884057971015,
+                "width": 220,
+                "height": 65
+              },
+              "attributes": [
+                "attr_sj6ihagwa_mtilcayx_2ze"
+              ],
+              "methods": []
+            },
+            "attr_sj6ihagwa_mtilcayx_2ze": {
+              "id": "attr_sj6ihagwa_mtilcayx_2ze",
+              "name": "description",
+              "type": "ClassAttribute",
+              "owner": "class_j6etxhhci_mtilcayx_zk6",
+              "bounds": {
+                "x": -5298.712560386473,
+                "y": -1584.6884057971015,
+                "width": 219,
+                "height": 25
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "class_efe14in16_mtilcayx_0kl": {
+              "id": "class_efe14in16_mtilcayx_0kl",
+              "name": "Neck",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5960.777777777777,
+                "y": -1595.6666666666665,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_pm9u3n6jf_mtilcayx_6zw": {
+              "id": "class_pm9u3n6jf_mtilcayx_6zw",
+              "name": "Cervix",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5960.777777777777,
+                "y": -1472.6666666666665,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_esax2edh2_mtilcayx_zcu": {
+              "id": "class_esax2edh2_mtilcayx_zcu",
+              "name": "Large Intestine",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5721.755628797742,
+                "y": -1473.4444444444443,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_qiz7o2seu_mtilcayx_kh5": {
+              "id": "class_qiz7o2seu_mtilcayx_kh5",
+              "name": "Pitfalls",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5479.962944878472,
+                "y": -1474.5555555555557,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_kp7c9yw7d_mtilcayx_ji1": {
+              "id": "class_kp7c9yw7d_mtilcayx_ji1",
+              "name": "Ovaries",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5117.777777777777,
+                "y": -1472.6666666666665,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_v76becny9_mtilcayx_iaq": {
+              "id": "class_v76becny9_mtilcayx_iaq",
+              "name": "Uterus",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4863.777777777777,
+                "y": -1471.6666666666665,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_jhe1d0ig5_mtilcayx_thx": {
+              "id": "class_jhe1d0ig5_mtilcayx_thx",
+              "name": "Bladder",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4606.777777777777,
+                "y": -1469.6666666666665,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_xwtazf5dz_mtilcayx_c40": {
+              "id": "class_xwtazf5dz_mtilcayx_c40",
+              "name": "Small Intestine",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4349.444444444444,
+                "y": -1470,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_tcc4lg86u_mtilcayx_sau": {
+              "id": "class_tcc4lg86u_mtilcayx_sau",
+              "name": "Lymphatic System",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5961.777777777777,
+                "y": -1379.6666666666665,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_2h044ykz0_mtilcayx_8ny": {
+              "id": "class_2h044ykz0_mtilcayx_8ny",
+              "name": "Mesentery",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5724.444444444444,
+                "y": -1378,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_doalng157_mtilcayx_sim": {
+              "id": "class_doalng157_mtilcayx_sim",
+              "name": "Head",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5479.444444444444,
+                "y": -1378,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_nv0l55t69_mtilcayx_054": {
+              "id": "class_nv0l55t69_mtilcayx_054",
+              "name": "Chest",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5115.870361328125,
+                "y": -1385.6666666666665,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_tkr6bkmis_mtilcayx_8lu": {
+              "id": "class_tkr6bkmis_mtilcayx_8lu",
+              "name": "Liver",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4861.777777777777,
+                "y": -1386.6666666666665,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_80ou236ij_mtilcayx_abh": {
+              "id": "class_80ou236ij_mtilcayx_abh",
+              "name": "Prostate",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5962.444444444444,
+                "y": -1291,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_9sbcuv3pd_mtilcayx_tlb": {
+              "id": "class_9sbcuv3pd_mtilcayx_tlb",
+              "name": "Stomach",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5723.185194227431,
+                "y": -1292.8518676757812,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_5jh7irf3q_mtilcayx_pn6": {
+              "id": "class_5jh7irf3q_mtilcayx_pn6",
+              "name": "Duodenum",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5480.444444444444,
+                "y": -1295,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_huzgckqid_mtilcayx_pam": {
+              "id": "class_huzgckqid_mtilcayx_pam",
+              "name": "Aorta",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -5117.444444444444,
+                "y": -1293,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_k1y1ft250_mtilcayx_kst": {
+              "id": "class_k1y1ft250_mtilcayx_kst",
+              "name": "Spleen",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4862.477728949652,
+                "y": -1293.6666666666665,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_rteyjpkj9_mtilcayx_193": {
+              "id": "class_rteyjpkj9_mtilcayx_193",
+              "name": "Skin Muscle Skeleton",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4605.777777777777,
+                "y": -1387.6666666666665,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_0f5e2dqq3_mtilcayx_tbj": {
+              "id": "class_0f5e2dqq3_mtilcayx_tbj",
+              "name": "Pancreas",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4351.444444444444,
+                "y": -1387,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_6m7h6dicx_mtilcayy_7wi": {
+              "id": "class_6m7h6dicx_mtilcayy_7wi",
+              "name": "Kidneys",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4602.444444444444,
+                "y": -1295,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            },
+            "class_x7uvd3vky_mtilcayy_6y6": {
+              "id": "class_x7uvd3vky_mtilcayy_6y6",
+              "name": "Glands",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -4349.444444444444,
+                "y": -1295,
+                "width": 220,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            }
+          },
+          "relationships": {
+            "rel_052nergra_mtilcayy_s2a": {
+              "id": "rel_052nergra_mtilcayy_s2a",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5208.777777777778,
+                "y": -2791.25,
+                "width": 215.0333340962734,
+                "height": 65.25
+              },
+              "path": [
+                {
+                  "x": 183.33333333333394,
+                  "y": 56.25
+                },
+                {
+                  "x": 183.33333333333394,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_aq1fsy8o9_mtilcayw_tbj",
+                "multiplicity": "0..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Upright",
+                "element": "class_bm405jxew_mtilcayw_q2y",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_qflmeuu5o_mtilcayy_ue4": {
+              "id": "rel_qflmeuu5o_mtilcayy_ue4",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5208.777777777778,
+                "y": -2791.25,
+                "width": 592.0333340962734,
+                "height": 63.25
+              },
+              "path": [
+                {
+                  "x": 560.3333333333339,
+                  "y": 54.25
+                },
+                {
+                  "x": 560.3333333333339,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_c6db1zp9b_mtilcayw_ujs",
+                "multiplicity": "0..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Upright",
+                "element": "class_bm405jxew_mtilcayw_q2y",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_4zh0lqzxd_mtilcayy_spn": {
+              "id": "rel_4zh0lqzxd_mtilcayy_spn",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5208.777777777778,
+                "y": -2791.25,
+                "width": 879.0333340962734,
+                "height": 63.25
+              },
+              "path": [
+                {
+                  "x": 847.3333333333339,
+                  "y": 54.25
+                },
+                {
+                  "x": 847.3333333333339,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_fwzl9926r_mtilcayw_uv7",
+                "multiplicity": "0..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Upright",
+                "element": "class_bm405jxew_mtilcayw_q2y",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_yyx3fknj2_mtilcayy_0k2": {
+              "id": "rel_yyx3fknj2_mtilcayy_0k2",
+              "name": "is_related",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -4915.444444444444,
+                "y": -2607.5,
+                "width": 157,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 157,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Downright",
+                "element": "class_aq1fsy8o9_mtilcayw_tbj",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Left",
+                "element": "class_xe0kr0hvt_mtilcayw_bj3",
+                "multiplicity": "*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_w7xc9pttj_mtilcayy_vlt": {
+              "id": "rel_w7xc9pttj_mtilcayy_vlt",
+              "name": "related_to_evaluate",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5402.611111111111,
+                "y": -2620,
+                "width": 36.70000076293945,
+                "height": 142
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 0
+                },
+                {
+                  "x": 5,
+                  "y": 133
+                }
+              ],
+              "source": {
+                "direction": "Bottomleft",
+                "element": "class_bm405jxew_mtilcayw_q2y",
+                "multiplicity": "0..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Topright",
+                "element": "class_3idhnhp8j_mtilcayw_1hp",
+                "multiplicity": "*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_vv2xncwa9_mtilcayy_vsz": {
+              "id": "rel_vv2xncwa9_mtilcayy_vsz",
+              "name": "evaluate",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5543.68253968254,
+                "y": -2447,
+                "width": 36.70000076293945,
+                "height": 146.73804582868343
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 0
+                },
+                {
+                  "x": 5,
+                  "y": 137.73804582868343
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "class_3idhnhp8j_mtilcayw_1hp",
+                "multiplicity": "*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Up",
+                "element": "class_4ahtnc588_mtilcayw_mus",
+                "multiplicity": "1..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_mrkoq2tla_mtilcayy_naa": {
+              "id": "rel_mrkoq2tla_mtilcayy_naa",
+              "name": "assess",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5480.920634920635,
+                "y": -2225.6309770856583,
+                "width": 182.40818846645288,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 182.40818846645288,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "class_4ahtnc588_mtilcayw_mus",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Upleft",
+                "element": "class_7njursmwf_mtilcayw_zv9",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_l616r6mcg_mtilcayy_m4z": {
+              "id": "rel_l616r6mcg_mtilcayy_m4z",
+              "name": "is_found",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5258.645112115981,
+                "y": -2620,
+                "width": 18.899999618530273,
+                "height": 367
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 358
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Topleft",
+                "element": "class_7njursmwf_mtilcayw_zv9",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Bottomright",
+                "element": "class_bm405jxew_mtilcayw_q2y",
+                "multiplicity": "*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_xl3j0gnqd_mtilcayy_s1y": {
+              "id": "rel_xl3j0gnqd_mtilcayy_s1y",
+              "name": "calculates",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5193.512446454182,
+                "y": -2462,
+                "width": 166.06800200973794,
+                "height": 209
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 200
+                },
+                {
+                  "x": 5,
+                  "y": 10
+                },
+                {
+                  "x": 166.06800200973794,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_7njursmwf_mtilcayw_zv9",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Left",
+                "element": "class_72rjupbq4_mtilcayx_myr",
+                "multiplicity": "0..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_bwm50iscm_mtilcayy_kqw": {
+              "id": "rel_bwm50iscm_mtilcayy_kqw",
+              "name": "is_done",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5078.512446454182,
+                "y": -2235.5,
+                "width": 145.06800200973794,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 145.06800200973794,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upright",
+                "element": "class_7njursmwf_mtilcayw_zv9",
+                "multiplicity": "*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Downleft",
+                "element": "class_7w1ewsirl_mtilcayx_z4h",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_wpzgejq9c_mtilcayy_ysn": {
+              "id": "rel_wpzgejq9c_mtilcayy_ysn",
+              "name": "has_clinical_antecedent",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -4713.444444444444,
+                "y": -2358.5,
+                "width": 233.22222222222172,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 233.22222222222172,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upright",
+                "element": "class_7w1ewsirl_mtilcayx_z4h",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Upleft",
+                "element": "class_44i1f7w0j_mtilcayx_zz3",
+                "multiplicity": "0..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_hbhn9bvmx_mtilcayy_hug": {
+              "id": "rel_hbhn9bvmx_mtilcayy_hug",
+              "name": "has_antecedent",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -4713.444444444444,
+                "y": -2227.5,
+                "width": 241.66666666666697,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 241.66666666666697,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Downright",
+                "element": "class_7w1ewsirl_mtilcayx_z4h",
+                "multiplicity": "0..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Left",
+                "element": "class_meyuilv27_mtilcayx_98x",
+                "multiplicity": "*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_kg5k89ccp_mtilcayy_wzi": {
+              "id": "rel_kg5k89ccp_mtilcayy_wzi",
+              "name": "indicates",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5539.58746883374,
+                "y": -2137,
+                "width": 241.0750223795576,
+                "height": 68.1875
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 59.1875
+                },
+                {
+                  "x": 5,
+                  "y": 10
+                },
+                {
+                  "x": 241.0750223795576,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Topright",
+                "element": "class_oe6ulifb5_mtilcayx_ojj",
+                "multiplicity": "0..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Upleft",
+                "element": "class_7njursmwf_mtilcayw_zv9",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_el2l081fm_mtilcayy_920": {
+              "id": "rel_el2l081fm_mtilcayy_920",
+              "name": "previous",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5479.58746883374,
+                "y": -2005.3125,
+                "width": 181.0750223795576,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 181.0750223795576,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Downleft",
+                "element": "class_7njursmwf_mtilcayw_zv9",
+                "multiplicity": "0..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Right",
+                "element": "class_oe6ulifb5_mtilcayx_ojj",
+                "multiplicity": "*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_vkfeysno6_mtilcayy_x3h": {
+              "id": "rel_vkfeysno6_mtilcayy_x3h",
+              "name": "relates",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5479.111111111112,
+                "y": -1802,
+                "width": 180.59866465692994,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 180.59866465692994,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "class_t9e7pucz1_mtilcayx_muo",
+                "multiplicity": "*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Downleft",
+                "element": "class_7njursmwf_mtilcayw_zv9",
+                "multiplicity": "1..*",
+                "role": "relates",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_346yjwnt5_mtilcayy_nxq": {
+              "id": "rel_346yjwnt5_mtilcayy_nxq",
+              "name": "is_also_found",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5193.862503420328,
+                "y": -1722,
+                "width": 18.899999618530273,
+                "height": 105.8115942028985
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 0
+                },
+                {
+                  "x": 5,
+                  "y": 96.8115942028985
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "class_7njursmwf_mtilcayw_zv9",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Up",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_t2mfjjism_mtilcayy_3qc": {
+              "id": "rel_t2mfjjism_mtilcayy_3qc",
+              "name": "generates",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5078.512446454182,
+                "y": -1918.5,
+                "width": 161.06800200973794,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 161.06800200973794,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Downright",
+                "element": "class_7njursmwf_mtilcayw_zv9",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Left",
+                "element": "class_qjstz2s9q_mtilcayx_3p2",
+                "multiplicity": "0..1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_qdyxorctb_mtilcayy_pxz": {
+              "id": "rel_qdyxorctb_mtilcayy_pxz",
+              "name": "results_in",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -5078.512446454182,
+                "y": -1770,
+                "width": 162.06800200973794,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 162.06800200973794,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Downright",
+                "element": "class_7njursmwf_mtilcayw_zv9",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Left",
+                "element": "class_kvy76gc87_mtilcayx_n9s",
+                "multiplicity": "*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_8b186imw9_mtilcayy_sis": {
+              "id": "rel_8b186imw9_mtilcayy_sis",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -4366.777777777777,
+                "y": -2156,
+                "width": 49.55555555555566,
+                "height": 154
+              },
+              "path": [
+                {
+                  "x": 49.55555555555566,
+                  "y": 116
+                },
+                {
+                  "x": 5,
+                  "y": 116
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Left",
+                "element": "class_e6t9fox1y_mtilcayx_jg5",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_meyuilv27_mtilcayx_98x",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_6mv2teary_mtilcayy_86t": {
+              "id": "rel_6mv2teary_mtilcayy_86t",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -4408.979243329182,
+                "y": -2156,
+                "width": 76.23479837611194,
+                "height": 322
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 284
+                },
+                {
+                  "x": 47.20146555140491,
+                  "y": 284
+                },
+                {
+                  "x": 47.20146555140491,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "class_6l6ht4rqz_mtilcayx_em1",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_meyuilv27_mtilcayx_98x",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_viu6shvnm_mtilcayy_d5f": {
+              "id": "rel_viu6shvnm_mtilcayy_d5f",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -4366.777777777777,
+                "y": -2156,
+                "width": 50.55555555555566,
+                "height": 322
+              },
+              "path": [
+                {
+                  "x": 50.55555555555566,
+                  "y": 284
+                },
+                {
+                  "x": 5,
+                  "y": 284
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Left",
+                "element": "class_sntxavi7h_mtilcayx_u7h",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_meyuilv27_mtilcayx_98x",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_foqyfjhql_mtilcayy_v1t": {
+              "id": "rel_foqyfjhql_mtilcayy_v1t",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -4409.222222222222,
+                "y": -2156,
+                "width": 76.47777726915137,
+                "height": 473.5
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 435.5
+                },
+                {
+                  "x": 47.44444444444434,
+                  "y": 435.5
+                },
+                {
+                  "x": 47.44444444444434,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "class_a2zob06lp_mtilcayx_5rc",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_meyuilv27_mtilcayx_98x",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_1eoaewboi_mtilcayy_rbg": {
+              "id": "rel_1eoaewboi_mtilcayy_rbg",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -4366.777777777777,
+                "y": -2156,
+                "width": 51.55555555555566,
+                "height": 473.5
+              },
+              "path": [
+                {
+                  "x": 51.55555555555566,
+                  "y": 435.5
+                },
+                {
+                  "x": 5,
+                  "y": 435.5
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Left",
+                "element": "class_6ckflor11_mtilcayx_8ly",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_meyuilv27_mtilcayx_98x",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_ikt7apu6a_mtilcayy_csk": {
+              "id": "rel_ikt7apu6a_mtilcayy_csk",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -4366.5,
+                "y": -2156,
+                "width": 34.03333282470703,
+                "height": 526
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 517
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_wsitah3fi_mtilcayx_ck6",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_meyuilv27_mtilcayx_98x",
+                "multiplicity": "0..*",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_8q3pjdg0m_mtilcayy_fi4": {
+              "id": "rel_8q3pjdg0m_mtilcayy_fi4",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5855.777777777777,
+                "y": -1560.1884057971015,
+                "width": 680.4652170098343,
+                "height": 58
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 4.52173913043498
+                },
+                {
+                  "x": 5,
+                  "y": 44.52173913043498
+                },
+                {
+                  "x": 666.565217391304,
+                  "y": 44.52173913043498
+                },
+                {
+                  "x": 666.565217391304,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "class_efe14in16_mtilcayx_0kl",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_7suznqcjc_mtilcayy_f9s": {
+              "id": "rel_7suznqcjc_mtilcayy_f9s",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5855.777777777777,
+                "y": -1560.1884057971015,
+                "width": 680.4652170098343,
+                "height": 96.52173913043498
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 87.52173913043498
+                },
+                {
+                  "x": 5,
+                  "y": 43.76086956521749
+                },
+                {
+                  "x": 666.565217391304,
+                  "y": 43.76086956521749
+                },
+                {
+                  "x": 666.565217391304,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_pm9u3n6jf_mtilcayx_6zw",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_qkpgz16df_mtilcayy_z5n": {
+              "id": "rel_qkpgz16df_mtilcayy_z5n",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5616.755628797742,
+                "y": -1560.1884057971015,
+                "width": 441.4430680297992,
+                "height": 95.74396135265715
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 86.74396135265715
+                },
+                {
+                  "x": 5,
+                  "y": 43.371980676328576
+                },
+                {
+                  "x": 427.5430684112689,
+                  "y": 43.371980676328576
+                },
+                {
+                  "x": 427.5430684112689,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_esax2edh2_mtilcayx_zcu",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_md5fanhu4_mtilcayy_78d": {
+              "id": "rel_md5fanhu4_mtilcayy_78d",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5374.962944878472,
+                "y": -1560.1884057971015,
+                "width": 199.65038411052865,
+                "height": 94.63285024154584
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 85.63285024154584
+                },
+                {
+                  "x": 5,
+                  "y": 42.81642512077292
+                },
+                {
+                  "x": 185.75038449199837,
+                  "y": 42.81642512077292
+                },
+                {
+                  "x": 185.75038449199837,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_qiz7o2seu_mtilcayx_kh5",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_8z4qs2w0h_mtilcayy_cvw": {
+              "id": "rel_8z4qs2w0h_mtilcayy_cvw",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 200.33478222722624,
+                "height": 96.52173913043498
+              },
+              "path": [
+                {
+                  "x": 186.43478260869597,
+                  "y": 87.52173913043498
+                },
+                {
+                  "x": 186.43478260869597,
+                  "y": 43.76086956521749
+                },
+                {
+                  "x": 5,
+                  "y": 43.76086956521749
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_kp7c9yw7d_mtilcayx_ji1",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_v22j8u9jh_mtilcayy_ciw": {
+              "id": "rel_v22j8u9jh_mtilcayy_ciw",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 454.33478222722624,
+                "height": 97.52173913043498
+              },
+              "path": [
+                {
+                  "x": 440.43478260869597,
+                  "y": 88.52173913043498
+                },
+                {
+                  "x": 440.43478260869597,
+                  "y": 44.26086956521749
+                },
+                {
+                  "x": 5,
+                  "y": 44.26086956521749
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_v76becny9_mtilcayx_iaq",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_n3gpmvld6_mtilcayy_s3x": {
+              "id": "rel_n3gpmvld6_mtilcayy_s3x",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 711.3347822272262,
+                "height": 99.52173913043498
+              },
+              "path": [
+                {
+                  "x": 697.434782608696,
+                  "y": 90.52173913043498
+                },
+                {
+                  "x": 697.434782608696,
+                  "y": 45.26086956521749
+                },
+                {
+                  "x": 5,
+                  "y": 45.26086956521749
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_jhe1d0ig5_mtilcayx_thx",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_c8214gfmn_mtilcayy_oky": {
+              "id": "rel_c8214gfmn_mtilcayy_oky",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 968.6681155605593,
+                "height": 99.1884057971015
+              },
+              "path": [
+                {
+                  "x": 954.768115942029,
+                  "y": 90.1884057971015
+                },
+                {
+                  "x": 954.768115942029,
+                  "y": 45.09420289855075
+                },
+                {
+                  "x": 5,
+                  "y": 45.09420289855075
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_xwtazf5dz_mtilcayx_c40",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": false
+            },
+            "rel_xz3sy4vyd_mtilcayy_k2o": {
+              "id": "rel_xz3sy4vyd_mtilcayy_k2o",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5856.777777777777,
+                "y": -1560.1884057971015,
+                "width": 681.4652170098343,
+                "height": 189.52173913043498
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 180.52173913043498
+                },
+                {
+                  "x": 5,
+                  "y": 151.2608695652175
+                },
+                {
+                  "x": 667.565217391304,
+                  "y": 151.2608695652175
+                },
+                {
+                  "x": 667.565217391304,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_tcc4lg86u_mtilcayx_sau",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_3oya7bcc3_mtilcayy_cbb": {
+              "id": "rel_3oya7bcc3_mtilcayy_cbb",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5619.444444444444,
+                "y": -1560.1884057971015,
+                "width": 440,
+                "height": 200
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 182.1884057971015
+                },
+                {
+                  "x": 5,
+                  "y": 151.52752199034762
+                },
+                {
+                  "x": 430.231884057971,
+                  "y": 151.52752199034762
+                },
+                {
+                  "x": 430.231884057971,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_2h044ykz0_mtilcayx_8ny",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_jtz4kq90i_mtilcayy_row": {
+              "id": "rel_jtz4kq90i_mtilcayy_row",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5374.444444444444,
+                "y": -1560.1884057971015,
+                "width": 200,
+                "height": 200
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 182.1884057971015
+                },
+                {
+                  "x": 5,
+                  "y": 151.09420289855075
+                },
+                {
+                  "x": 185.231884057971,
+                  "y": 151.09420289855075
+                },
+                {
+                  "x": 185.231884057971,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_doalng157_mtilcayx_sim",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_nius0x9yd_mtilcayy_t99": {
+              "id": "rel_nius0x9yd_mtilcayy_t99",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 200,
+                "height": 180
+              },
+              "path": [
+                {
+                  "x": 188.34219905834834,
+                  "y": 174.52173913043498
+                },
+                {
+                  "x": 188.34219905834834,
+                  "y": 150.69418865701437
+                },
+                {
+                  "x": 5,
+                  "y": 150.69418865701437
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_nv0l55t69_mtilcayx_054",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_vchu6487h_mtilcayy_n2n": {
+              "id": "rel_vchu6487h_mtilcayy_n2n",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 440,
+                "height": 180
+              },
+              "path": [
+                {
+                  "x": 442.43478260869597,
+                  "y": 173.52173913043498
+                },
+                {
+                  "x": 442.43478260869597,
+                  "y": 150.19418865701437
+                },
+                {
+                  "x": 5,
+                  "y": 150.19418865701437
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_tkr6bkmis_mtilcayx_8lu",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_u9kld245x_mtilcayy_kr7": {
+              "id": "rel_u9kld245x_mtilcayy_kr7",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5857.444444444444,
+                "y": -1560.1884057971015,
+                "width": 680,
+                "height": 280
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 269.1884057971015
+                },
+                {
+                  "x": 5,
+                  "y": 242.02755250792575
+                },
+                {
+                  "x": 668.231884057971,
+                  "y": 242.02755250792575
+                },
+                {
+                  "x": 668.231884057971,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_80ou236ij_mtilcayx_abh",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_6p3i8nv4m_mtilcayy_ipi": {
+              "id": "rel_6p3i8nv4m_mtilcayy_ipi",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5618.185194227431,
+                "y": -1560.1884057971015,
+                "width": 440,
+                "height": 280
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 267.33653812132025
+                },
+                {
+                  "x": 5,
+                  "y": 242.10161867003512
+                },
+                {
+                  "x": 428.9726338409573,
+                  "y": 242.10161867003512
+                },
+                {
+                  "x": 428.9726338409573,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_9sbcuv3pd_mtilcayx_tlb",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_fxkzxup4u_mtilcayy_nne": {
+              "id": "rel_fxkzxup4u_mtilcayy_nne",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5375.444444444444,
+                "y": -1560.1884057971015,
+                "width": 200,
+                "height": 280
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 265.1884057971015
+                },
+                {
+                  "x": 5,
+                  "y": 242.02755250792575
+                },
+                {
+                  "x": 186.231884057971,
+                  "y": 242.02755250792575
+                },
+                {
+                  "x": 186.231884057971,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_5jh7irf3q_mtilcayx_pn6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_wb45umms7_mtilcayy_oh3": {
+              "id": "rel_wb45umms7_mtilcayy_oh3",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 200,
+                "height": 280
+              },
+              "path": [
+                {
+                  "x": 186.768115942029,
+                  "y": 267.1884057971015
+                },
+                {
+                  "x": 186.768115942029,
+                  "y": 242.02755250792575
+                },
+                {
+                  "x": 5,
+                  "y": 242.02755250792575
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_huzgckqid_mtilcayx_pam",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_ank7ovvyc_mtilcayy_txu": {
+              "id": "rel_ank7ovvyc_mtilcayy_txu",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 440,
+                "height": 280
+              },
+              "path": [
+                {
+                  "x": 441.73483143682097,
+                  "y": 266.521739130435
+                },
+                {
+                  "x": 441.73483143682097,
+                  "y": 241.6942191745925
+                },
+                {
+                  "x": 5,
+                  "y": 241.6942191745925
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_k1y1ft250_mtilcayx_kst",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_fzwnurd8y_mtilcayy_nxg": {
+              "id": "rel_fzwnurd8y_mtilcayy_nxg",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 700,
+                "height": 180
+              },
+              "path": [
+                {
+                  "x": 698.434782608696,
+                  "y": 172.52173913043498
+                },
+                {
+                  "x": 698.434782608696,
+                  "y": 149.69418865701437
+                },
+                {
+                  "x": 5,
+                  "y": 149.69418865701437
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_rteyjpkj9_mtilcayx_193",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_cwmq677b6_mtilcayy_soq": {
+              "id": "rel_cwmq677b6_mtilcayy_soq",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 960,
+                "height": 180
+              },
+              "path": [
+                {
+                  "x": 952.768115942029,
+                  "y": 173.1884057971015
+                },
+                {
+                  "x": 952.768115942029,
+                  "y": 149.46087159972262
+                },
+                {
+                  "x": 5,
+                  "y": 149.46087159972262
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_0f5e2dqq3_mtilcayx_tbj",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_f1x8egaad_mtilcayy_rge": {
+              "id": "rel_f1x8egaad_mtilcayy_rge",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 700,
+                "height": 280
+              },
+              "path": [
+                {
+                  "x": 701.768115942029,
+                  "y": 265.1884057971015
+                },
+                {
+                  "x": 701.768115942029,
+                  "y": 241.02755250792575
+                },
+                {
+                  "x": 5,
+                  "y": 241.02755250792575
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_6m7h6dicx_mtilcayy_7wi",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "rel_khvo5nf6j_mtilcayy_0y4": {
+              "id": "rel_khvo5nf6j_mtilcayy_0y4",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -5194.212560386473,
+                "y": -1560.1884057971015,
+                "width": 960,
+                "height": 280
+              },
+              "path": [
+                {
+                  "x": 954.768115942029,
+                  "y": 265.1884057971015
+                },
+                {
+                  "x": 954.768115942029,
+                  "y": 241.02755250792575
+                },
+                {
+                  "x": 5,
+                  "y": 241.02755250792575
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "class_x7uvd3vky_mtilcayy_6y6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_j6etxhhci_mtilcayx_zk6",
+                "multiplicity": "1",
+                "role": "",
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0
+                }
+              },
+              "isManuallyLayouted": true
+            },
+            "56e0c4eb-54f3-4c7f-8110-389ba8c317b6": {
+              "id": "56e0c4eb-54f3-4c7f-8110-389ba8c317b6",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -4409.222222222222,
+                "y": -2156,
+                "width": 52.44444444444434,
+                "height": 136
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 115
+                },
+                {
+                  "x": 47.44444444444434,
+                  "y": 115
+                },
+                {
+                  "x": 47.44444444444434,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "class_zsm7xrx28_mtilcayx_7lo",
+                "multiplicity": "",
+                "role": ""
+              },
+              "target": {
+                "direction": "Down",
+                "element": "class_meyuilv27_mtilcayx_98x",
+                "multiplicity": "",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "3e815ccd-fb7b-4e6a-9679-47c3ca71503a": {
+              "id": "3e815ccd-fb7b-4e6a-9679-47c3ca71503a",
+              "name": "associates",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -4915.444444444444,
+                "y": -2713.5,
+                "width": 157,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 157,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Downleft",
+                "element": "class_c6db1zp9b_mtilcayw_ujs",
+                "multiplicity": "*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Upright",
+                "element": "class_aq1fsy8o9_mtilcayw_tbj",
+                "multiplicity": "0..1",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            }
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-01T13:53:12.395Z",
+        "description": "Imported ClassDiagram diagram from image"
+      }
+    ],
+    "ObjectDiagram": [
+      {
+        "id": "b44bb749-16e8-44ae-8fe6-25d62d2d2c62",
+        "title": "Object Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ObjectDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-01T11:30:47.219Z"
+      }
+    ],
+    "StateMachineDiagram": [
+      {
+        "id": "0eb006e7-8f03-4f13-a8c2-38960aa1648f",
+        "title": "State Machine Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "StateMachineDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-01T11:30:47.219Z"
+      }
+    ],
+    "AgentDiagram": [
+      {
+        "id": "de490838-6173-4bc6-b39b-459d45760d1d",
+        "title": "Agent Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "AgentDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-01T11:30:47.219Z"
+      }
+    ],
+    "UserDiagram": [
+      {
+        "id": "9f230352-dec0-441a-9d77-c0f9caf59cca",
+        "title": "User Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "UserDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-01T11:30:47.219Z"
+      }
+    ],
+    "GUINoCodeDiagram": [
+      {
+        "id": "76a1a146-a041-478a-8be7-efffb0e327bb",
+        "title": "GUI Diagram",
+        "model": {
+          "pages": [
+            {
+              "name": "Home",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "styles": [],
+          "assets": [],
+          "symbols": [],
+          "version": "0.21.13"
+        },
+        "lastUpdate": "2026-09-01T11:30:47.219Z"
+      }
+    ],
+    "QuantumCircuitDiagram": [
+      {
+        "id": "6df0cdce-a21c-4f0a-8c71-7c49b0327177",
+        "title": "Quantum Circuit",
+        "model": {
+          "cols": [],
+          "gates": [],
+          "gateMetadata": {},
+          "initialStates": [],
+          "version": "1.0.0"
+        },
+        "lastUpdate": "2026-09-01T11:30:47.219Z"
+      }
+    ],
+    "NNDiagram": [
+      {
+        "id": "6496b731-66e1-4c03-8493-c0f633713059",
+        "title": "NN Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "NNDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-01T11:30:47.219Z"
+      }
+    ],
+    "BPMN": [
+      {
+        "id": "dc616a88-6d2f-4c0c-9b1c-95f0122ef577",
+        "title": "BPMN Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "BPMNDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-01T11:30:47.219Z"
+      }
+    ]
+  },
+  "settings": {
+    "defaultDiagramType": "ClassDiagram",
+    "autoSave": true,
+    "collaborationEnabled": false,
+    "perspectives": {
+      "ClassDiagram": true,
+      "ObjectDiagram": true,
+      "StateMachineDiagram": false,
+      "AgentDiagram": false,
+      "UserDiagram": false,
+      "GUINoCodeDiagram": false,
+      "QuantumCircuitDiagram": false,
+      "NNDiagram": false,
+      "BPMN": false
+    }
+  }
+}
