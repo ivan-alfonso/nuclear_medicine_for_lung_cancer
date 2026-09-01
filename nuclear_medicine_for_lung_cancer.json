@@ -1322,7 +1322,7 @@
               },
               "code": "",
               "visibility": "public",
-              "attributeType": "str",
+              "attributeType": "bool",
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
@@ -1344,7 +1344,7 @@
               },
               "code": "",
               "visibility": "public",
-              "attributeType": "str",
+              "attributeType": "bool",
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
@@ -1366,7 +1366,7 @@
               },
               "code": "",
               "visibility": "public",
-              "attributeType": "str",
+              "attributeType": "bool",
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
@@ -1388,7 +1388,7 @@
               },
               "code": "",
               "visibility": "public",
-              "attributeType": "str",
+              "attributeType": "bool",
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
@@ -1410,7 +1410,7 @@
               },
               "code": "",
               "visibility": "public",
-              "attributeType": "str",
+              "attributeType": "bool",
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
@@ -1432,7 +1432,7 @@
               },
               "code": "",
               "visibility": "public",
-              "attributeType": "str",
+              "attributeType": "bool",
               "implementationType": "none",
               "stateMachineId": "",
               "quantumCircuitId": "",
@@ -3067,7 +3067,7 @@
               "source": {
                 "direction": "Bottomleft",
                 "element": "class_bm405jxew_mtilcayw_q2y",
-                "multiplicity": "0..1",
+                "multiplicity": "1..*",
                 "role": "",
                 "bounds": {
                   "x": 0,
@@ -3079,7 +3079,7 @@
               "target": {
                 "direction": "Topright",
                 "element": "class_3idhnhp8j_mtilcayw_1hp",
-                "multiplicity": "*",
+                "multiplicity": "0..1",
                 "role": "",
                 "bounds": {
                   "x": 0,
@@ -5298,7 +5298,7 @@
           },
           "assessments": {}
         },
-        "lastUpdate": "2026-09-01T13:53:12.395Z",
+        "lastUpdate": "2026-09-01T14:13:44.884Z",
         "description": "Imported ClassDiagram diagram from image"
       }
     ],
