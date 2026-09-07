@@ -6,7 +6,7 @@ The model was inspired by the use case described in the paper *"A Conceptual Mod
 
 ## Class Diagram
 
-![Lung Cancer Class Diagram](lung_cancer.svg)
+![Lung Cancer Class Diagram](lung_cancer.png)
 
 ## About the Model
 
@@ -19,7 +19,7 @@ The `Patient` side of the model keeps track of relevant clinical background: a `
 ## Files
 
 - `nuclear_medicine_for_lung_cancer.json` - The project definition file
-- `lung_cancer.svg` - Exported class diagram image
+- `lung_cancer.png` - Exported class diagram image
 
 ## Opening the Project
 
